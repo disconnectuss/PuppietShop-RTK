@@ -30,12 +30,7 @@ const TabNav = () => {
         options={{
           tabBarLabel: 'Home',
           tabBarIcon: ({size, color, focused}) => (
-            <DefaultIcon
-              name="home"
-              size={size}
-              color={color}
-              focused={focused}
-            />
+            <DefaultIcon name="home" size={size} color={color} />
           ),
         }}
       />
@@ -45,12 +40,7 @@ const TabNav = () => {
         options={{
           tabBarLabel: 'Categories',
           tabBarIcon: ({size, color, focused}) => (
-            <DefaultIcon
-              name="grid"
-              size={size}
-              color={color}
-              focused={focused}
-            />
+            <DefaultIcon name="grid" size={size} color={color} />
           ),
         }}
       />
@@ -60,12 +50,7 @@ const TabNav = () => {
         options={{
           tabBarLabel: 'Cart',
           tabBarIcon: ({size, color, focused}) => (
-            <DefaultIcon
-              name="cart"
-              size={size}
-              color={color}
-              focused={focused}
-            />
+            <DefaultIcon name="cart" size={size} color={color} />
           ),
         }}
       />
@@ -75,12 +60,7 @@ const TabNav = () => {
         options={{
           tabBarLabel: 'Assistance',
           tabBarIcon: ({size, color, focused}) => (
-            <DefaultIcon
-              name="help-circle"
-              size={size}
-              color={color}
-              focused={focused}
-            />
+            <DefaultIcon name="help-circle" size={size} color={color} />
           ),
         }}
       />

@@ -4,26 +4,25 @@ import {Input, Box, Stack, ScrollView} from 'native-base';
 import DefaultIcon from '../components/icons/DefaultIcon';
 import Carousel from '../components/carousel/Carousel';
 import ProductList from '../components/products/ProductList';
+import {useAppDispatch} from '../app/hooks';
+import {setProduct} from '../features/product/productSlice';
+import {setCategories} from '../features/category/categorySlice';
+import {dogProducts, categories} from '../db/db';
+import DefaultNavbar from '../components/navbar/DefaultNavbar';
+import CategoryList from '../components/categories/CategoryList';
 
 const HomeScreen = () => {
-//   useEffect(()=>{
-//     axios.get('http://192.168.1.56:3000')
-//     .then((res)=>console.log(res.json))
-   
-   
-//   },[])
- {/*} const getProducts = () => {
-    axiosInstance
-      .get('/products')
-      .then(products => console.log(products.data))
-      .catch(error => console.log(error.message));
-  };
+  const dispatch = useAppDispatch();
+
   useEffect(() => {
-    console.log('girdim');
-    getProducts();
-  }, []);*/}
+    dispatch(setProduct(dogProducts));
+    dispatch(setCategories(categories));
+  }, []);
+
   return (
     <ScrollView>
+      <DefaultNavbar />
+
       <Stack space={4} width="75%" maxW="300px">
         <Input
           variant="unstyled"
@@ -34,7 +33,6 @@ const HomeScreen = () => {
           px={1}
           borderWidth={0.2}
           fontSize={14}
-          autoCompleteType="off"
           _light={{
             placeholderTextColor: 'blueGray.400',
           }}
@@ -50,9 +48,10 @@ const HomeScreen = () => {
       </Stack>
       <Carousel />
       <ProductList />
+      <CategoryList />
     </ScrollView>
   );
-}
+};
 
 const styles = StyleSheet.create({});
 
