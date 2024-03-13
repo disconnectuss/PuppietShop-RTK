@@ -54,8 +54,8 @@ const TabNav = () => {
         options={{
           tabBarLabel: ({color}) => (
             <View>
-              <Text style={{color, fontSize: 10}}>
-                {cartTotal} {'\u20BA'}
+              <Text style={{color, fontSize: 10}}> {'\u0024'}{''}
+                {cartTotal} 
               </Text>
             </View>
           ),
