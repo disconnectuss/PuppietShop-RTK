@@ -11,6 +11,7 @@ import {dogProducts, categories} from '../db/db';
 import DefaultNavbar from '../components/navbar/DefaultNavbar';
 import CategoryList from '../components/categories/CategoryList';
 import Grid from '../components/icons/Grid';
+import { DefaultTextStyles } from '../assets/styles/Styles';
 
 const HomeScreen = () => {
   const dispatch = useAppDispatch();

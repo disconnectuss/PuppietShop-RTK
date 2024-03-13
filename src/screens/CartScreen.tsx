@@ -17,7 +17,7 @@ const CartScreen = () => {
       <ScrollView style={{height: height * 0.65}}>
         <Basket />
         {cart.length > 0 && <DiscountBadge />}
-        <ProductList title="Sana Özel" />
+        <ProductList title="For You" />
       </ScrollView>
       {cart.length > 0 && <BottomBadge />}
     </SafeAreaView>

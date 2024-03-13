@@ -4,7 +4,8 @@ import {FlatList} from 'native-base';
 import {useAppSelector} from '../../app/hooks';
 import {getCategoriesState} from '../../features/category/categorySelector';
 import CategoryItem from './CategoryItem';
-import {ProductWrrapper} from '../../assets/styles/Styles';
+import {DefaultTextStyles, ProductWrrapper} from '../../assets/styles/Styles';
+
 const CategoryList = () => {
   const categories = useAppSelector(getCategoriesState());
   return (
@@ -15,7 +16,7 @@ const CategoryList = () => {
           gap: 10,
         },
       ]}>
-    <Text style={{color: '#666'}}>Categories</Text> 
+    <Text style={DefaultTextStyles.text}>Categories</Text> 
       <FlatList
         data={categories}
         renderItem={({item}) => <CategoryItem item={item} />}

@@ -6,6 +6,7 @@ import {Box, Image} from 'native-base';
 import DefaultIcon from '../icons/DefaultIcon';
 import {useAppDispatch} from '../../app/hooks';
 import {addToCart} from '../../features/cart/cartSlice';
+
 interface ProductItemProps {
   item: ProductType;
 }

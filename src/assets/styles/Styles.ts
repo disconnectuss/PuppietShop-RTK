@@ -275,12 +275,13 @@ export const AssistStyles = StyleSheet.create({
     alignItems: 'center',
   },
   text: {
-    color: 'black',
     position: 'absolute',
     top: 20,
     zIndex: 1,
     marginTop: 50,
     fontSize: 30,
+    fontWeight: 'bold',
+    color: '#666', // text color
   },
 });
 
@@ -298,3 +299,12 @@ export const CategoryScreenStyles = StyleSheet.create({
     marginBottom: 10,
   },
 });
+
+// Default Text heading
+export const DefaultTextStyles = StyleSheet.create({
+  text:{
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#666', // text color
+  }
+})
