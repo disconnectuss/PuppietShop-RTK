@@ -10,6 +10,8 @@ export interface ProductType {
   shopName: string;
   discountPercentage: number;
   rating: number;
+  shopRating: number;
+  // discountedPrice: number;
 }
 
 export interface CategoryType {

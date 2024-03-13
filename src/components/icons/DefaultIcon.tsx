@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet} from 'react-native';
+import {View} from 'react-native';
 import React, {FC} from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
 

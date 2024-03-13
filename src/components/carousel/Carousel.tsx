@@ -1,5 +1,5 @@
-import {FlatList, Image} from 'native-base';
-import {StyleSheet, Text, View, Dimensions} from 'react-native';
+import {Image} from 'native-base';
+import {View} from 'react-native';
 import SwiperFlatList from 'react-native-swiper-flatlist';
 import {CarouselStyles} from '../../assets/styles/Styles';
 

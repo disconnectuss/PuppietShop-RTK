@@ -10,6 +10,7 @@ import {setCategories} from '../features/category/categorySlice';
 import {dogProducts, categories} from '../db/db';
 import DefaultNavbar from '../components/navbar/DefaultNavbar';
 import CategoryList from '../components/categories/CategoryList';
+import Grid from '../components/icons/Grid';
 
 const HomeScreen = () => {
   const dispatch = useAppDispatch();
@@ -22,7 +23,6 @@ const HomeScreen = () => {
   return (
     <ScrollView>
       <DefaultNavbar />
-
       <Stack space={4} width="75%" maxW="300px">
         <Input
           variant="unstyled"
@@ -47,7 +47,7 @@ const HomeScreen = () => {
         />
       </Stack>
       <Carousel />
-      <ProductList />
+      <ProductList title="Popular" />
       <CategoryList />
     </ScrollView>
   );

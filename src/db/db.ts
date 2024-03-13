@@ -16,6 +16,7 @@ export const dogProducts = [
     shopName: 'PetCo',
     discountPercentage: 5,
     rating: 4.7,
+    shopRating: 4.2,
   },
   {
     id: 2,
@@ -27,9 +28,10 @@ export const dogProducts = [
     img_url:
       'https://www.ivorycoat.com.au/cdn/shop/products/IC_AU_400G_ADULTDOG_GF_BEEFSTEW_01_MOI_1200x1200_crop_center.jpg?v=1645560742',
     quantity: 1,
-    shopName: 'PetSmart',
+    shopName: 'PetCo',
     discountPercentage: 10,
     rating: 4.8,
+    shopRating: 4.2,
   },
   {
     id: 3,
@@ -44,6 +46,7 @@ export const dogProducts = [
     shopName: 'Petland',
     discountPercentage: 15,
     rating: 4.5,
+    shopRating: 4.7,
   },
   {
     id: 4,
@@ -55,9 +58,10 @@ export const dogProducts = [
     img_url:
       'https://m.media-amazon.com/images/I/81mTKlWyGoL._AC_UF1000,1000_QL80_.jpg',
     quantity: 1,
-    shopName: 'Pet Supplies Plus',
+    shopName: 'PetCo',
     discountPercentage: 8,
     rating: 4.2,
+    shopRating: 4.2,
   },
   {
     id: 5,
@@ -72,6 +76,7 @@ export const dogProducts = [
     shopName: 'Pet Kingdom',
     discountPercentage: 12,
     rating: 4.6,
+    shopRating: 3.7,
   },
   {
     id: 6,
@@ -81,9 +86,10 @@ export const dogProducts = [
     price: 7.99,
     img_url: 'https://m.media-amazon.com/images/I/61oDok6j8mS._AC_SL1500_.jpg',
     quantity: 1,
-    shopName: 'PetSmart',
+    shopName: 'Petland',
     discountPercentage: 20,
     rating: 4.9,
+    shopRating: 4.7,
   },
   {
     id: 7,
@@ -96,6 +102,7 @@ export const dogProducts = [
     shopName: 'PetCo',
     discountPercentage: 18,
     rating: 4.4,
+    shopRating: 4.2,
   },
   {
     id: 8,
@@ -108,6 +115,7 @@ export const dogProducts = [
     shopName: 'Pet Supplies Plus',
     discountPercentage: 15,
     rating: 4.7,
+    shopRating: 4.9,
   },
   {
     id: 9,
@@ -120,6 +128,7 @@ export const dogProducts = [
     shopName: 'Pet Kingdom',
     discountPercentage: 10,
     rating: 4.3,
+    shopRating: 3.7,
   },
   {
     id: 10,
@@ -133,6 +142,7 @@ export const dogProducts = [
     shopName: 'Petland',
     discountPercentage: 25,
     rating: 4.8,
+    shopRating: 4.7,
   },
 ];
 

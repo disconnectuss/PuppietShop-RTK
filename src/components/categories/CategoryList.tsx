@@ -15,8 +15,7 @@ const CategoryList = () => {
           gap: 10,
         },
       ]}>
-      <Text>Kategoriler</Text>
-
+    <Text style={{color: '#666'}}>Categories</Text> 
       <FlatList
         data={categories}
         renderItem={({item}) => <CategoryItem item={item} />}
