@@ -18,7 +18,7 @@ To get started with PawderStore, follow these steps:
 After installing the dependencies, you can run the app using one of the following commands:
 
 - For Android:
-- - For iOS:
+- For iOS:
 
 ## Features
 
