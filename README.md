@@ -1,12 +1,12 @@
-# PawderStore
-PawderStore is a dog products store mobile application built with React Native and TypeScript. It utilizes Redux Toolkit for state management and includes various libraries such as React Navigation for navigation, NativeBase for UI components, and axios for handling network requests. The app allows users to browse and purchase a wide range of dog products conveniently.
+# Puppiet Shop
+Puppiet Shop is a dog products store mobile application built with React Native and TypeScript. It utilizes Redux Toolkit for state management and includes various libraries such as React Navigation for navigation, NativeBase for UI components, and axios for handling network requests. The app allows users to browse and purchase a wide range of dog products conveniently.
 
 # Preview
 Uploading Simulator Screen Recording - iPhone SE (3rd generation) - 2024-09-02 at 19.21.22.mp4…
 
 ## Installation
 
-To get started with PawderStore, follow these steps:
+To get started with Puppiet Shop, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
