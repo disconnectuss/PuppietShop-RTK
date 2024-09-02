@@ -1,11 +1,8 @@
 # PawderStore
 PawderStore is a dog products store mobile application built with React Native and TypeScript. It utilizes Redux Toolkit for state management and includes various libraries such as React Navigation for navigation, NativeBase for UI components, and axios for handling network requests. The app allows users to browse and purchase a wide range of dog products conveniently.
+
 # Preview
-
-![pawderStore](https://github.com/disconnectuss/PawderStore/assets/129686850/27cf30d6-5548-4dec-b885-22c69809726b)
-
-
-
+Uploading Simulator Screen Recording - iPhone SE (3rd generation) - 2024-09-02 at 19.21.22.mp4…
 
 ## Installation
 
