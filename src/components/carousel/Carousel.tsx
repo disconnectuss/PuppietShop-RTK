@@ -4,9 +4,9 @@ import SwiperFlatList from 'react-native-swiper-flatlist';
 import {CarouselStyles} from '../../assets/styles/Styles';
 
 const images = [
-  {key: '1', source: require('../../assets/images/image.png')},
-  {key: '2', source: require('../../assets/images/image.png')},
-  {key: '3', source: require('../../assets/images/image.png')},
+  {key: '1', source: require('../../assets/images/banner-1.jpeg')},
+  {key: '2', source: require('../../assets/images/banner-2.jpeg')},
+  {key: '3', source: require('../../assets/images/banner-3.webp')},
 ];
 
 const Carousel = () => {

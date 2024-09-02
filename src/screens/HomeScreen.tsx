@@ -28,7 +28,7 @@ const HomeScreen = () => {
         <Input
           variant="unstyled"
           focusOutlineColor="gray.500"
-          placeholder="Neye ihtiyacın var?"
+          placeholder="What are you looking for?"
           borderRadius={8}
           py={3}
           px={1}

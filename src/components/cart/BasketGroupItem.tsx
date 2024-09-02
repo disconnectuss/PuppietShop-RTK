@@ -27,7 +27,7 @@ const BasketGroupItem: FC<BasketGroupItemProps> = ({item}) => {
           borderColor: 'gray',
           padding: 8,
         }}>
-        <Image source={{uri: item.img_url}} style={styles.productImage} />
+        <Image alt='product' source={{uri: item.img_url}} style={styles.productImage} />
       </View>
 
       <View

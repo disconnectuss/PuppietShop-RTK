@@ -26,7 +26,7 @@ const DefaultNavbar: FC<DefaultNavbarProps> = ({type}) => {
     return (
       <SafeAreaView>
         <View style={navbarStyles.navbar}>
-          <Text style={navbarStyles.text}>pawder</Text>
+          <Text style={navbarStyles.text}>Puppiet Shop</Text>
           <View style={navbarStyles.avatar}>
             <DefaultIcon
               name={'notifications-outline'}
